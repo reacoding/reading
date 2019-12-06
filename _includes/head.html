@@ -35,6 +35,7 @@
 {% capture canonical %}{{ site.baseurl }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
 
+<link rel="icon" href="{{ site.baseurl }}/favicon.png" type="image/x-icon">
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -52,7 +53,6 @@
 {% capture background %}{% if page.image.background %}{{ page.image.background }}{% else %}{{ site.background }}{% endif %}{% endcapture %}
 {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.baseurl }}/images/{{ background }}{% endcapture %}{% endunless %}
 
-<link rel="icon" href="{{ site.baseurl }}/favicon.png" type="image/x-icon">
 <style type="text/css">body {background-image:url({{ background }});}</style>
 {% endif %}
 
