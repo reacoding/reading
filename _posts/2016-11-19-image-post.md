@@ -12,12 +12,12 @@ Lorem ipsum dolor sit amet, interdum fermentum arcu, ipsum venenatis curabitur d
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="/images/2016-11-19/abstract-1.jpg">
-        <img src="/images/2016-11-19/abstract-2.jpg">
-        <img src="/images/2016-11-19/abstract-3.jpg">
-        <img src="/images/2016-11-19/abstract-4.jpg">
-        <img src="/images/2016-11-19/abstract-5.jpg">
-        <img src="/images/2016-11-19/abstract-6.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-1.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-2.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-3.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-4.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-5.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-6.jpg">
     </div>
 </center>
 
