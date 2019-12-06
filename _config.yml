@@ -1,9 +1,7 @@
 title:            Reading ...
 description:      Reading is the best way to ...
 copyright:        Yuqing Lin
-url: "https://www.lin-sci.cn" # add your custom site url (format: https://example.com)
-
-baseurl: /reading
+url: "https://www.lin-sci.cn/reading" # add your custom site url (format: https://example.com)
 
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge

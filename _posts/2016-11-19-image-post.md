@@ -12,18 +12,18 @@ Lorem ipsum dolor sit amet, interdum fermentum arcu, ipsum venenatis curabitur d
 
 <center>
     <div class="photoset-grid-custom" data-layout="213">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-1.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-2.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-3.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-4.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-5.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/2016-11-19/abstract-6.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-1.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-2.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-3.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-4.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-5.jpg">
+        <img src="{{ site.url }}/images/2016-11-19/abstract-6.jpg">
     </div>
 </center>
 
  Sit mollis consectetuer tempor in, sociosqu mi in ornare et, placerat in eget ac, praesent pellentesque, mollis est natoque. Quis quis, ac ac pretium sed fusce sollicitudin cursus, magna vitae placerat tincidunt sed dictumst, nullam rutrum pharetra consectetuer. Erat libero odio venenatis, et id ac ultrices convallis, ac iaculis nec vestibulum etiam nec metus, integer velit dictum. Inceptos laoreet at wisi libero dolor, id scelerisque vulputate a amet amet dapibus, at et vitae nec aliquam, fringilla vitae quam. Mauris felis nec sagittis posuere mauris, penatibus ullamcorper, tristique aliquet, vel posuere class placerat. Ornare et non magnis fusce.
 
-<script src="/assets/js/jquery.photoset-grid.js"></script>
+<script src="{{ site.url }}/assets/js/jquery.photoset-grid.js"></script>
 
 <script type="text/javascript">
     $('.photoset-grid-custom').photosetGrid({
