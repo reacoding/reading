@@ -5,13 +5,11 @@ layout: post-index
 <article>
     
     <!-- POST FEATURED IMAGE -->
-    
+    {% if post.featured-image != null %}
     <div class="featured-image">
-        {% if post.featured-image != null %}
-            <img src="{{ site.baseurl }}{{ post.featured-image}}" style="width:100%">
-        {% endif %}
+    <img src="{{ site.baseurl }}{{ post.featured-image}}" style="width:100%">
     </div>
-    
+    {% endif %}
     <!-- POST TITLE -->
     <header>
         <h1 class="entry-title">
